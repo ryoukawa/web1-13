@@ -92,7 +92,7 @@ setCookie('lastDate', current_time.toString(), 7);
  
 var thmubs = document.querySelectorAll('.thumb');
 for(idx in thmubs){
-  thumbs[idx].onclick = function(){
+  thmubs[idx].onclick = function(){
     document.getElementById("bigimg").src = 'img/' + this.dataset.image +'.jpg':
   }
 }
