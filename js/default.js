@@ -50,7 +50,7 @@ var exdate = cltime.toUTCString();
     
 var s="";
 s += c_name +"="+ escape(value);
-s += path="+ location.pathname;
+s += "; path="+ location.pathname;
 if(expiredays){
    s += "; expirs=" +exdate+"; ";
 }else{
